@@ -23,9 +23,13 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="css/resume.css" rel="stylesheet">
 
+  <!-- scripts on load -->
+  <script src="vendor/d3/d3.min.js"></script>
+  <script src="js/reviewing.js" charset="utf-8"></script>
+
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="reviewingVis('reviewing.json')">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -80,20 +84,11 @@
         <p class="lead mb-5">Senior researcher in GI Science, geovisualization, and map generalization. Vice-head of LASTIG lab.</p>
         <p class="lead mb-5">Member of the <a href="">GEOVIS</a> research team</p>
         <div class="social-icons">
-          <a href="#">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
           <a href="https://www.researchgate.net/profile/Guillaume_Touya">
             <i class="fab fa-researchgate"></i>
           </a>
           <a href="https://github.com/gtouya">
             <i class="fab fa-github"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
           </a>
           <a href="https://scholar.google.fr/citations?user=Cbc_R2IAAAAJ">
             <i class="fab fa-google"></i>
@@ -546,6 +541,16 @@
             <i class="fa-li fa fa-check-square"></i>
             Nicolas Culson (2006), Highway interchange detection and generalisation</li>
         </ul>
+
+        <div class="subheading mb-3 mt-3">Reviewing</div>
+        <div id="reviewings" class="sub">
+          <div id="revj">
+          </div>
+          <div id="revc">
+          </div>
+          <div id="revb">
+          </div>
+        </div>
 
         <div class="subheading mb-3 mt-3">Awards</div>
         <ul class="fa-ul mb-1">
