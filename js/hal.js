@@ -186,6 +186,70 @@ var getOtherPublicationsAuthor = function(halId){
 }
 
 
+var getKeywordPublicationsAuthor = function(halId, keyword){
+  // Create a request variable and assign a new XMLHttpRequest object to it.
+  var request = new XMLHttpRequest();
+
+  // Open a new connection, using the GET request on the URL endpoint
+  var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:%22"+halId+"%22&wt=json&fq=keyword_s:"+keyword+"&fl=citationFull_s,docType_s&sort=producedDateY_i desc";
+  request.open('GET', url, true);
+  var parent = document.getElementById("pub");
+
+  request.onload = function () {
+    // Begin accessing JSON data here
+    var data = JSON.parse(this.response);
+    data.response.docs.forEach(docs => {
+      // Log each doc id
+      createPubHTML(docs, parent);
+    })
+  };
+
+  request.send();
+}
+
+var getKeywordPublicationsAuthorYear = function(halId, keyword,startYear){
+
+  // get current year
+  var parent = document.getElementById("pub");
+  var today = new Date();
+  var year = today.getFullYear();
+  var urls = new Array(year-startYear+1);
+  var years = new Array(year-startYear+1);
+  for(i=0;i <= year-startYear;i++){
+    yeari = year-i;
+    years[i] = yeari;
+    urls[i]="https://api.archives-ouvertes.fr/search/?q=authIdHal_s:%22"+halId+"%22&wt=json&fq=keyword_s:%22"+keyword+"%22&fq=producedDateY_i:"+yeari+"&fl=citationFull_s,docType_s&sort=producedDateY_i desc";
+  }
+
+  var request = new XMLHttpRequest();
+  (function loop(i, length) {
+      if (i>= length) {
+          return;
+      }
+      var url = urls[i];
+
+      request.open("GET", url);
+      request.onreadystatechange = function() {
+          if(request.readyState === XMLHttpRequest.DONE && request.status === 200) {
+              var data = JSON.parse(request.responseText);
+              if(data.response.docs.length>0){
+                  divElement = document.createElement('div');
+                  divElement.setAttribute("class","subheading mb-3 mt-3");
+                  divElement.innerHTML = years[i];
+                  const yearParentElement = parent.appendChild(divElement);
+              }
+              data.response.docs.forEach(docs => {
+                // Log each doc id
+                createPubHTML(docs, parent);
+              });
+              loop(i + 1, length);
+          }
+      }
+      request.send();
+  })(0, urls.length);
+}
+
+
 var getInvitedTalksAuthor = function(halId){
   // Create a request variable and assign a new XMLHttpRequest object to it.
   var request = new XMLHttpRequest();
