@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Research on Multi-Agent Systems - Guillaume Touya's webpage</title>
+  <title>Research on Volunteered Geographic Information (VGI) - Guillaume Touya's webpage</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,12 +26,11 @@
 
   <!-- scripts on load -->
   <script src="vendor/d3/d3.min.js"></script>
-  <script src="js/reviewing.js" charset="utf-8"></script>
-    <script src="js/hal.js" charset="utf-8"></script>
+  <script src="js/hal.js" charset="utf-8"></script>
 
 </head>
 
-<body id="page-top" onload="getKeywordPublicationsAuthor('guillaume-touya','SMA');">
+<body id="page-top" onload="getKeywordPublicationsAuthor('guillaume-touya','VGI');">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <select class="selectpicker" data-width="fit">
@@ -55,23 +54,23 @@
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang-en" href="#about">About</a>
-          <a class="nav-link js-scroll-trigger lang-fr" href="#about">Principes</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#about">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang-en" href="#past">Past research at IGN France</a>
-          <a class="nav-link js-scroll-trigger lang-fr" href="#past">Recherches passées à l'IGN</a>
+          <a class="nav-link js-scroll-trigger lang-en" href="#quality">Data Quality</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#quality">Qualité des données</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang-en" href="#collagen">CollaGen</a>
-          <a class="nav-link js-scroll-trigger lang-fr" href="#collagen">CollaGen</a>
+          <a class="nav-link js-scroll-trigger lang-en" href="#contributor">Contributor Analysis</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#contributor">Analyse des contributeurs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang-en" href="#diogen">DIOGEN</a>
-          <a class="nav-link js-scroll-trigger lang-fr" href="#diogen">DIOGEN</a>
+          <a class="nav-link js-scroll-trigger lang-en" href="#lod">Level of Detail</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#lod">Niveau de détail</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang-en" href="#cartagen">CartAGen</a>
-          <a class="nav-link js-scroll-trigger lang-fr" href="#cartagen">CartAGen</a>
+          <a class="nav-link js-scroll-trigger lang-en" href="#carto">OSM cartography</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#carto">Cartographie d'OSM</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang-en" href="#publications">Publications</a>
@@ -86,27 +85,23 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0 lang-en">My research on
-          <span class="text-primary lang-en">Multi-Agent Systems</span> for Map Generalisation
+          <span class="text-primary lang-en">Volunteered Geographic Information</span> and OpenStreetMap
         </h1>
         <h1 class="mb-0 lang-fr">Mes recherches sur
-          <span class="text-primary lang-fr">les SMA</span> pour la généralisation cartographique
+          <span class="text-primary lang-fr">les données géographiques volontaires</span> et OpenStreetMap
         </h1>
 
-      <p class="lead mb-5 lang-en">Since the seminal PhD from Anne Ruas, solving the automation of map generalization with multi-agent systems (MAS) is the main research paradigm at IGN France (see this <a href="generalisation.html">page</a> to learn more on my generalisation research).
-        At the date of my arrival at IGN in 2004, agents were everywhere in generalization, and they were a part of my early research. This page first shows principles of past research on MAS for generalisation, and then describes my contribution:
-       the CollaGen model from my PhD research, the DIOGEN model from Adrien Maudet's PhD research (I was co-supervisor), and the CartAGen open source platform.</p>
-      <p class="lead mb-5 lang-fr">Depuis la thèse d'Anne Ruas, l'approche adoptée à l'IGN pour automatiser la générélisation cartographique est d'utiliser le principe des systèmes multi-agents (SMA) (cette page <a href="generalisation.html">page</a> sur la généralisation en général si nécessaire).
-        A mon arrivée en recherche à l'IGN en 2004, les agents étaient partout en généralisation, et ils ont constitué naturellement une grande partie de mes premières recherches. Cette page présente d'abord quelques principes issues des recherches de l'IGN sur le sujet, puis décrit mes propres contributions :
-       le modèle CollaGen issu de mes travaux de thèse, le modèle DIOGEN issu de la thèse d'Adrien Maudet (co-encadrée avec Cécile Duchêne et Sébastien Picault), et la plateforme de recherche ouverte CartAGen.</p>
+      <p class="lead mb-5 lang-en">...</p>
+      <p class="lead mb-5 lang-fr">...</p>
     </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="past">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="quality">
       <div class="w-100">
-        <h2 class="mb-5 lang-en">Past research at IGN France</h2>
-        <h2 class="mb-5 lang-fr">Recherches passées à l'IGN</h2>
+        <h2 class="mb-5 lang-en">VGI Quality</h2>
+        <h2 class="mb-5 lang-fr">Qualité des données géographiques volontaires</h2>
         <hr class="star-dark mb-5">
 
         <div class="row">
@@ -191,11 +186,11 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="collagen">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="contributor">
       <div class="container mar-bot50">
         <div class="row mar-bot40">
           <div class="col-lg-12 text-center">
-              <h2 class="section-heading">CollaGen</h2>
+              <h2 class="section-heading">Contributor Analysis</h2>
               <h3 class="section-subheading text-muted mb-5 lang-en">my PhD thesis, supervised by Cécile Duchêne and Anne Ruas</h3>
               <h3 class="section-subheading text-muted mb-5 lang-fr">mon sujet de thèse, encadrée par Cécile Duchêne et dirigée par Anne Ruas</h3>
             </div>
@@ -205,11 +200,12 @@
 
     <hr class="m-0">
 
-    <section id="diogen" class="section appear clearfix">
+    <section id="lod" class="section appear clearfix">
       <div class="container mar-bot50">
         <div class="row mar-bot40">
           <div class="col-lg-12 text-center">
-              <h2 class="section-heading">DIOGEN</h2>
+              <h2 class="section-heading lang-en">Level of Detail of VGI</h2>
+              <h2 class="section-heading lang-fr">Niveau de détail des données géographiques volontaires</h2>
               <h3 class="section-subheading text-muted mb-5 lang-en">PhD thesis by Adrien Maudet, co-supervised with Cécile Duchêne and Sébastien Picault</h3>
               <h3 class="section-subheading text-muted mb-5 lang-fr">Thèse d'Adrien Maudet, co-encadrée avec Cécile Duchêne et Sébastien Picault</h3>
             </div>
@@ -219,9 +215,10 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="cartagen">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="carto">
       <div class="w-100">
-        <h2 class="mb-5">CartAGen</h2>
+        <h2 class="mb-5 lang-en">Automated Cartography of OSM</h2>
+        <h2 class="mb-5 lang-fr">Cartographie automatique d'OSM</h2>
         <img class="img-circle img-responsive mb-5" src="img/icons/cartagen_logo.png" alt="">
         <p class="text-muted lang-en"><a href="https://github.com/IGNF/CartAGen">CartAGen</a> is an open research platform for map generalisation. Developed in Java, it derives from the GeOxygene platform plugin we were previously developing.
         CartAGen contains complete or partial implementations of the AGENT, CartACom, GAEL, DIOGEN, and CollaGen models.
