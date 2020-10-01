@@ -45,6 +45,8 @@
    {"name": "IJGIS", "role": "Reviewer", "year": 2020, "type": "JREW3", "description": "International Journal of Geographic Information Science", "url": "https://www.tandfonline.com/loi/tgis20"},
    {"name": "TiGIS", "role": "Reviewer", "year": 2020, "type": "JREW1", "description": "Transactions in GIS", "url": "https://onlinelibrary.wiley.com/journal/14679671"},
    {"name": "IJGI", "role": "Reviewer", "year": 2020, "type": "JREW2", "description": "ISPRS International Journal of Geo-Information", "url": "https://www.mdpi.com/journal/ijgi"},
+   {"name": "JOSIS", "role": "Reviewer", "year": 2020, "type": "JREW1", "description": "Journal of Spatial Information Science", "url": "https://www.josis.org/index.php/josis"},
+   {"name": "CaGIS", "role": "Reviewer", "year": 2020, "type": "JREW1", "description": "Cartography and Geographic Information Science", "url": "https://www.tandfonline.com/toc/tcag20"},
    {"name": "Other GIS", "role": "Reviewer", "year": 2020, "type": "JREW1", "description": "Other journals in GIS", "url": ""}
 ],
  "conferences": [
@@ -57,6 +59,7 @@
      {"name": "GeneICA", "role": "Reviewer", "year": 2017, "type": "CREW", "description": "20th ICA Workshop on Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/workshop2017.html"},
      {"name": "GeneICA", "role": "Chair", "year": 2018, "type": "CHAIR", "description": "21st ICA Workshop on Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/workshop2018.html"},
      {"name": "GeneICA", "role": "Chair", "year": 2019, "type": "CHAIR", "description": "ICA Workshop on Abstraction, Scale, and Perception", "url": "https://icc2019abstraction.wordpress.com/"},
+     {"name": "GeneICA", "role": "Chair", "year": 2020, "type": "CHAIR", "description": "23rd ICA Workshop on Map Generalisation and Multiple Representation", "url": "https://varioscale.bk.tudelft.nl/events/icagen2020/"},
      {"name": "ICC", "role": "Reviewer", "year": 2013, "type": "CREW", "description": "26th International Cartographic Conference", "url": "https://icaci.org/icc2013/"},
      {"name": "ICC", "role": "Reviewer", "year": 2015, "type": "CREW", "description": "27th International Cartographic Conference", "url": "https://icaci.org/icc2015/"},
      {"name": "ICC", "role": "Reviewer", "year": 2017, "type": "CREW", "description": "28th International Cartographic Conference", "url": "https://icaci.org/icc2017/"},
@@ -66,6 +69,7 @@
      {"name": "SAGEO", "role": "Program Committee member", "year": 2017, "type": "PCM", "description": "Spatial Analysis and GEOmatics 2017", "url": "https://sageo2017.sciencesconf.org/"},
      {"name": "SAGEO", "role": "Program Committee member", "year": 2018, "type": "PCM", "description": "Spatial Analysis and GEOmatics 2018", "url": "https://www.sageo2018.fr/"},
      {"name": "SAGEO", "role": "Program Committee member", "year": 2019, "type": "PCM", "description": "Spatial Analysis and GEOmatics 2019", "url": "https://sageo2019.irstea.fr/"},
+     {"name": "SAGEO", "role": "Program Committee member", "year": 2021, "type": "PCM", "description": "Spatial Analysis and GEOmatics 2021", "url": ""},
      {"name": "ISPRS", "role": "Reviewer", "year": 2016, "type": "CREW", "description": "23rd ISPRS Congress", "url": "http://www.isprs2016-prague.com/"},
      {"name": "ISPRS", "role": "Program Committee member", "year": 2018, "type": "PCM", "description": "ISPRS TCIV Symposium 2018", "url": "https://www.isprs.org/tc4-symposium2018/"}
  ]
