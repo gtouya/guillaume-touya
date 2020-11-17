@@ -70,6 +70,7 @@
      {"name": "SAGEO", "role": "Program Committee member", "year": 2018, "type": "PCM", "description": "Spatial Analysis and GEOmatics 2018", "url": "https://www.sageo2018.fr/"},
      {"name": "SAGEO", "role": "Program Committee member", "year": 2019, "type": "PCM", "description": "Spatial Analysis and GEOmatics 2019", "url": "https://sageo2019.irstea.fr/"},
      {"name": "SAGEO", "role": "Program Committee member", "year": 2021, "type": "PCM", "description": "Spatial Analysis and GEOmatics 2021", "url": ""},
+     {"name": "SAC", "role": "Reviewer", "year": 2021, "type": "CREW", "description": "The 36th ACM/SIGAPP Symposium On Applied Computing", "url": "http://www.sigapp.org/sac/sac2021/"},
      {"name": "ISPRS", "role": "Reviewer", "year": 2016, "type": "CREW", "description": "23rd ISPRS Congress", "url": "http://www.isprs2016-prague.com/"},
      {"name": "ISPRS", "role": "Program Committee member", "year": 2018, "type": "PCM", "description": "ISPRS TCIV Symposium 2018", "url": "https://www.isprs.org/tc4-symposium2018/"}
  ]
