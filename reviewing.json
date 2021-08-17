@@ -47,7 +47,10 @@
    {"name": "IJGI", "role": "Reviewer", "year": 2020, "type": "JREW2", "description": "ISPRS International Journal of Geo-Information", "url": "https://www.mdpi.com/journal/ijgi"},
    {"name": "JOSIS", "role": "Reviewer", "year": 2020, "type": "JREW1", "description": "Journal of Spatial Information Science", "url": "https://www.josis.org/index.php/josis"},
    {"name": "CaGIS", "role": "Reviewer", "year": 2020, "type": "JREW1", "description": "Cartography and Geographic Information Science", "url": "https://www.tandfonline.com/toc/tcag20"},
-   {"name": "Other GIS", "role": "Reviewer", "year": 2020, "type": "JREW1", "description": "Other journals in GIS", "url": ""}
+   {"name": "Other GIS", "role": "Reviewer", "year": 2020, "type": "JREW1", "description": "Other journals in GIS", "url": ""},
+   {"name": "CaGIS", "role": "Reviewer", "year": 2021, "type": "JREW2", "description": "Cartography and Geographic Information Science", "url": "https://www.tandfonline.com/toc/tcag20"},
+   {"name": "IJGIS", "role": "Reviewer", "year": 2021, "type": "JREW1", "description": "International Journal of Geographic Information Science", "url": "https://www.tandfonline.com/loi/tgis20"},
+   {"name": "Other GIS", "role": "Reviewer", "year": 2021, "type": "JREW1", "description": "Other journals in GIS", "url": ""}
 ],
  "conferences": [
      {"name": "GeneICA", "role": "Reviewer", "year": 2011, "type": "CREW", "description": "14th ICA Workshop on Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/72-workshop-2011-general-information.html"},
