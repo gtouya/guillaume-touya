@@ -51,7 +51,9 @@
    {"name": "CaGIS", "role": "Reviewer", "year": 2021, "type": "JREW2", "description": "Cartography and Geographic Information Science", "url": "https://www.tandfonline.com/toc/tcag20"},
    {"name": "IJGIS", "role": "Reviewer", "year": 2021, "type": "JREW1", "description": "International Journal of Geographic Information Science", "url": "https://www.tandfonline.com/loi/tgis20"},
    {"name": "Other GIS", "role": "Reviewer", "year": 2021, "type": "JREW1", "description": "Other journals in GIS", "url": ""},
-   {"name": "IJGI", "role": "Reviewer", "year": 2021, "type": "JREW1", "description": "ISPRS International Journal of Geo-Information", "url": "https://www.mdpi.com/journal/ijgi"}
+   {"name": "IJGI", "role": "Reviewer", "year": 2021, "type": "JREW1", "description": "ISPRS International Journal of Geo-Information", "url": "https://www.mdpi.com/journal/ijgi"},
+   {"name": "Other GIS", "role": "Reviewer", "year": 2022, "type": "JREW1", "description": "Other journals in GIS", "url": ""},
+   {"name": "EP:B", "role": "Reviewer", "year": 2022, "type": "JREW1", "description": "Environment and Planning: B", "url": "https://journals.sagepub.com/home/epb"}
 ],
  "conferences": [
      {"name": "GeneICA", "role": "Reviewer", "year": 2011, "type": "CREW", "description": "14th ICA Workshop on Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/72-workshop-2011-general-information.html"},
@@ -81,6 +83,8 @@
      {"name": "ISPRS", "role": "Reviewer", "year": 2021, "type": "CREW", "description": "24th ISPRS Congress", "url": "http://www.isprs2020-nice.com/"},
      {"name": "ISPRS", "role": "Reviewer", "year": 2022, "type": "CREW", "description": "24th ISPRS Congress", "url": "https://www.isprs2022-nice.com/"},
      {"name": "EuroCarto", "role": "Program Committee member", "year": 2022, "type": "PCM", "description": "European Cartographic Conference EuroCarto 2022", "url": "https://eurocarto2022.org/"},
-     {"name": "GeneICA", "role": "Chair", "year": 2021, "type": "CHAIR", "description": "24th ICA Workshop on Map Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/workshop2021.html"}
+     {"name": "ICC", "role": "Program Committee member", "year": 2021, "type": "PCM", "description": "30th International Cartographic Conference", "url": "https://www.icc2021.net/"},
+     {"name": "GeneICA", "role": "Chair", "year": 2021, "type": "CHAIR", "description": "24th ICA Workshop on Map Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/workshop2021.html"},
+     {"name": "CompCarto", "role": "Program Committee member", "year": 2022, "type": "PCM", "description": "1st Workshop on Computational Cartography", "url": "http://www2.geoinfo.uni-bonn.de/html/visualization/compcarto/"}
  ]
 }
