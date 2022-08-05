@@ -53,6 +53,8 @@
    {"name": "Other GIS", "role": "Reviewer", "year": 2021, "type": "JREW1", "description": "Other journals in GIS", "url": ""},
    {"name": "IJGI", "role": "Reviewer", "year": 2021, "type": "JREW1", "description": "ISPRS International Journal of Geo-Information", "url": "https://www.mdpi.com/journal/ijgi"},
    {"name": "Other GIS", "role": "Reviewer", "year": 2022, "type": "JREW1", "description": "Other journals in GIS", "url": ""},
+   {"name": "TiGIS", "role": "Reviewer", "year": 2022, "type": "JREW1", "description": "Transactions in GIS", "url": "https://onlinelibrary.wiley.com/journal/14679671"},
+   {"name": "Carto", "role": "Reviewer", "year": 2022, "type": "JREW1", "description": "The Cartographic Journal", "url": "https://www.tandfonline.com/loi/ycaj20"},
    {"name": "EP:B", "role": "Reviewer", "year": 2022, "type": "JREW1", "description": "Environment and Planning: B", "url": "https://journals.sagepub.com/home/epb"}
 ],
  "conferences": [
