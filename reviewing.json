@@ -57,8 +57,9 @@
    {"name": "CaGIS", "role": "Guest editor", "year": 2022, "type": "JGED3", "description": "Cartography and Geographic Information Science", "url": "https://www.tandfonline.com/toc/tcag20"},
    {"name": "Other GIS", "role": "Reviewer", "year": 2022, "type": "JREW1", "description": "Other journals in GIS", "url": ""},
    {"name": "EP:B", "role": "Reviewer", "year": 2022, "type": "JREW2", "description": "Environment and Planning: B", "url": "https://journals.sagepub.com/home/epb"},
-   {"name": "IJGIS", "role": "Reviewer", "year": 2023, "type": "JREW1", "description": "International Journal of Geographic Information Science", "url": "https://www.tandfonline.com/loi/tgis20"},
+   {"name": "IJGIS", "role": "Reviewer", "year": 2023, "type": "JREW2", "description": "International Journal of Geographic Information Science", "url": "https://www.tandfonline.com/loi/tgis20"},
    {"name": "CaGIS", "role": "Guest editor", "year": 2023, "type": "JGED3", "description": "Cartography and Geographic Information Science", "url": "https://www.tandfonline.com/toc/tcag20"},
+   {"name": "TiGIS", "role": "Reviewer", "year": 2023, "type": "JREW1", "description": "Transactions in GIS", "url": "https://onlinelibrary.wiley.com/journal/14679671"},
    {"name": "Other GIS", "role": "Reviewer", "year": 2023, "type": "JREW1", "description": "Other journals in GIS", "url": ""}
 ],
  "conferences": [
