@@ -60,7 +60,8 @@
    {"name": "IJGIS", "role": "Reviewer", "year": 2023, "type": "JREW2", "description": "International Journal of Geographic Information Science", "url": "https://www.tandfonline.com/loi/tgis20"},
    {"name": "CaGIS", "role": "Guest editor", "year": 2023, "type": "JGED3", "description": "Cartography and Geographic Information Science", "url": "https://www.tandfonline.com/toc/tcag20"},
    {"name": "TiGIS", "role": "Reviewer", "year": 2023, "type": "JREW1", "description": "Transactions in GIS", "url": "https://onlinelibrary.wiley.com/journal/14679671"},
-   {"name": "Other GIS", "role": "Reviewer", "year": 2023, "type": "JREW1", "description": "Other journals in GIS", "url": ""}
+   {"name": "Carto", "role": "Reviewer", "year": 2023, "type": "JREW1", "description": "The Cartographic Journal", "url": "https://www.tandfonline.com/loi/ycaj20"},
+   {"name": "Other GIS", "role": "Reviewer", "year": 2023, "type": "JREW2", "description": "Other journals in GIS", "url": ""}
 ],
  "conferences": [
      {"name": "GeneICA", "role": "Reviewer", "year": 2011, "type": "CREW", "description": "14th ICA Workshop on Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/72-workshop-2011-general-information.html"},
