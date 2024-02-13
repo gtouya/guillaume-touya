@@ -22,9 +22,9 @@
 
 const CVIS = {
     BOOK_LIST: ["Books"],
-    JOUR_LIST: ["IJGIS", "CaGIS", "TiGIS", "JOSIS", "IJGI", "IJC", "Carto", "Other GIS", "SpatialCog", "IEEE", "ISPRS", "EP:B"],
-    CONF_LIST: ["ICC", "GIScience", "GeneICA", "SAGEO", "ISPRS", "ISSDQ", "SAC", "EuroCarto", "CompCarto"],
-    TIME_INTERVAL: ["2006", "2024"],
+    JOUR_LIST: ["IJGIS", "CaGIS", "TiGIS", "JOSIS", "IJGI", "IJC", "Carto", "Other GIS", "SpatialCog", "IEEE", "ISPRS", "EP:B", "CEUS"],
+    CONF_LIST: ["ICC", "GIScience", "GeneICA", "SAGEO", "ISPRS", "ISSDQ", "SAC", "EuroCarto", "CompCarto", "CartoAI", "ISCRAM"],
+    TIME_INTERVAL: ["2006", "2025"],
     SVG_W: 800,
     TITLE_Y: 26,
     CAPTION_X: 40,
@@ -102,7 +102,7 @@ var _reviewing4x = function(data, venueList, jobList, parentEl, svg_h, heading){
          .attr("transform", "translate(0,60)");
     svgEl.append("g")
          .attr("transform", "translate("+CVIS.TRACK_X+",54)")
-         .call(d3.axisTop(timeScale).tickValues([timeParser("2010"), timeParser("2015"), timeParser("2020")]).tickSizeOuter(0));
+         .call(d3.axisTop(timeScale).tickValues([timeParser("2010"), timeParser("2015"), timeParser("2020"), timeParser("2025")]).tickSizeOuter(0));
 
     venueGs = d3.select("g#"+heading.toLowerCase())
                 .selectAll("g.venues")
@@ -140,7 +140,7 @@ var _reviewing4x = function(data, venueList, jobList, parentEl, svg_h, heading){
 var reviewingVis = function(dataURL){
     d3.json(dataURL).then(
         function(data){
-            _reviewing4x(data.journals, CVIS.JOUR_LIST, LEGENDS.journals, "#revj", 320, "Journals");
+            _reviewing4x(data.journals, CVIS.JOUR_LIST, LEGENDS.journals, "#revj", 340, "Journals");
             _reviewing4x(data.conferences, CVIS.CONF_LIST, LEGENDS.conferences, "#revc", 280, "Conferences");
             _reviewing4x(data.books, CVIS.BOOK_LIST, LEGENDS.books, "#revb", 110, "Books");
         }
