@@ -24,7 +24,7 @@ const CVIS = {
     BOOK_LIST: ["Books"],
     JOUR_LIST: ["IJGIS", "CaGIS", "TiGIS", "JOSIS", "IJGI", "IJC", "Carto", "Other GIS", "SpatialCog", "IEEE", "ISPRS", "EP:B", "CEUS"],
     CONF_LIST: ["ICC", "GIScience", "GeneICA", "SAGEO", "ISPRS", "ISSDQ", "SAC", "EuroCarto", "CompCarto", "CartoAI", "ISCRAM"],
-    TIME_INTERVAL: ["2006", "2025"],
+    TIME_INTERVAL: ["2009", "2025"],
     SVG_W: 800,
     TITLE_Y: 26,
     CAPTION_X: 40,
