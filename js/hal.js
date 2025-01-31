@@ -58,7 +58,7 @@ var getJournalPublicationsAuthor = function(halId){
 
   // Open a new connection, using the GET request on the URL endpoint
   var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:%22"+halId
-    +"%22&wt=json&fl=citationFull_s,producedDateY_i,halId_s,fileMain_s&fq=docType_s:\"ART\"&fq=peerReviewing_s:\"1\"&sort=producedDateY_i desc";
+    +"%22&wt=json&rows=100&fl=citationFull_s,producedDateY_i,halId_s,fileMain_s&fq=docType_s:\"ART\"&fq=peerReviewing_s:\"1\"&sort=producedDateY_i desc";
   request.open('GET', url, true);
   //console.log(url);
 
@@ -85,7 +85,7 @@ var getConfPublicationsAuthor = function(halId){
 
   // Open a new connection, using the GET request on the URL endpoint
   var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:%22"+halId
-    +"%22&wt=json&fq=docType_s:\"COMM\"&fq=invitedCommunication_s:\"0\"&fq=-comment_s:(\"workshop\" OR \"poster\" OR \"short\")&fl=citationFull_s,producedDateY_i,halId_s,fileMain_s&sort=producedDateY_i desc";
+    +"%22&wt=json&rows=100&fq=docType_s:\"COMM\"&fq=invitedCommunication_s:\"0\"&fq=-comment_s:(\"workshop\" OR \"poster\" OR \"short\")&fl=citationFull_s,producedDateY_i,halId_s,fileMain_s&sort=producedDateY_i desc";
   request.open('GET', url, true);
   //console.log(url);
 
@@ -111,7 +111,7 @@ var getBookPublicationsAuthor = function(halId){
 
   // Open a new connection, using the GET request on the URL endpoint
   var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:%22"+halId
-    +"%22&wt=json&fq=docType_s:\"COUV\"&fl=citationFull_s,producedDateY_i,halId_s,fileMain_s&sort=producedDateY_i desc";
+    +"%22&wt=json&rows=50&fq=docType_s:\"COUV\"&fl=citationFull_s,producedDateY_i,halId_s,fileMain_s&sort=producedDateY_i desc";
   request.open('GET', url, true);
   //console.log(url);
 
@@ -138,7 +138,7 @@ var getWorkshopPublicationsAuthor = function(halId){
 
   // Open a new connection, using the GET request on the URL endpoint
   var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:%22"+halId
-    +"%22&wt=json&fq=docType_s:(\"POSTER\" OR \"COMM\")&fq=comment_s:(\"workshop\" OR \"poster\" OR \"short\")&fl=citationFull_s,producedDateY_i,halId_s,docType_s,fileMain_s,comment_s&sort=producedDateY_i desc";
+    +"%22&wt=json&fq=docType_s:(\"POSTER\" OR \"COMM\")&rows=100&fq=comment_s:(\"workshop\" OR \"poster\" OR \"short\")&fl=citationFull_s,producedDateY_i,halId_s,docType_s,fileMain_s,comment_s&sort=producedDateY_i desc";
   request.open('GET', url, true);
   //console.log(url);
 
@@ -147,8 +147,8 @@ var getWorkshopPublicationsAuthor = function(halId){
   request.onload = function () {
     // Begin accessing JSON data here
     var data = JSON.parse(this.response);
-    //console.log(data.response);
-    console.log(data.response.docs);
+    console.log(data.response);
+    //console.log(data.response.docs);
     data.response.docs.forEach(docs => {
       // first create the list element with the citation
       createPubHTML(docs, parentB);
@@ -165,7 +165,7 @@ var getOtherPublicationsAuthor = function(halId){
 
   // Open a new connection, using the GET request on the URL endpoint
   var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:%22"+halId
-    +"%22&wt=json&fq=docType_s:(\"REPORT\" OR \"THESE\" OR \"HDR\")&fl=citationFull_s,producedDateY_i,halId_s,docType_s,fileMain_s&sort=producedDateY_i desc";
+    +"%22&wt=json&rows=100&fq=docType_s:(\"REPORT\" OR \"THESE\" OR \"HDR\")&fl=citationFull_s,producedDateY_i,halId_s,docType_s,fileMain_s&sort=producedDateY_i desc";
   request.open('GET', url, true);
   //console.log(url);
 
