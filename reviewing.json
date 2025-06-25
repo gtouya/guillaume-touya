@@ -68,7 +68,10 @@
    {"name": "JOSIS", "role": "Reviewer", "year": 2024, "type": "JREW1", "description": "Journal of Spatial Information Science", "url": "https://www.josis.org/index.php/josis"},
    {"name": "TiGIS", "role": "Reviewer", "year": 2024, "type": "JREW1", "description": "Transactions in GIS", "url": "https://onlinelibrary.wiley.com/journal/14679671"},
    {"name": "IJGIS", "role": "Reviewer", "year": 2024, "type": "JREW2", "description": "International Journal of Geographic Information Science", "url": "https://www.tandfonline.com/loi/tgis20"},
-   {"name": "IJC", "role": "Reviewer", "year": 2024, "type": "JREW1", "description": "International Journal of Cartography", "url": "https://www.tandfonline.com/loi/tica20"}
+   {"name": "IJC", "role": "Reviewer", "year": 2024, "type": "JREW1", "description": "International Journal of Cartography", "url": "https://www.tandfonline.com/loi/tica20"},
+   {"name": "CaGIS", "role": "Reviewer", "year": 2025, "type": "JREW2", "description": "Cartography and Geographic Information Science", "url": "https://www.tandfonline.com/toc/tcag20"},
+   {"name": "IJGI", "role": "Guest editor", "year": 2025, "type": "JGED3", "description": "ISPRS International Journal of Geo-Information", "url": "https://www.mdpi.com/journal/ijgi"},
+   {"name": "Other GIS", "role": "Reviewer", "year": 2025, "type": "JREW2", "description": "Other journals in GIS", "url": ""}
 ],
  "conferences": [
      {"name": "GeneICA", "role": "Reviewer", "year": 2011, "type": "CREW", "description": "14th ICA Workshop on Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/72-workshop-2011-general-information.html"},
@@ -104,6 +107,11 @@
      {"name": "ICC", "role": "Program Committee member", "year": 2023, "type": "PCM", "description": "31th International Cartographic Conference", "url": "https://icc2023.org/"},
      {"name": "ISCRAM", "role": "Program Committee member", "year": 2023, "type": "PCM", "description": "20th International Conference on Information Systems for Crisis Response and Management", "url": "https://www.unomaha.edu/college-of-information-science-and-technology/iscram2023/index.php"},
      {"name": "CartoAI", "role": "Chair", "year": 2023, "type": "CHAIR", "description": "1st Workshop on AI for cartography", "url": "https://cartoai.github.io/giscience2023/"},
-     {"name": "GeneICA", "role": "Chair", "year": 2023, "type": "CHAIR", "description": "25th ICA Workshop on Map Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/workshop2023.html"}
- ]
+     {"name": "GeneICA", "role": "Chair", "year": 2023, "type": "CHAIR", "description": "25th ICA Workshop on Map Generalisation and Multiple Representation", "url": "https://generalisation.icaci.org/prevevents/workshop2023.html"},
+     {"name": "GeneICA", "role": "Chair", "year": 2025, "type": "CHAIR", "description": "ICA Workshop on Multiscale Cartography and Sustainability", "url": "https://generalisation.icaci.org/prevevents/workshop2025.html"},
+     {"name": "ICC", "role": "Reviewer", "year": 2025, "type": "CREW", "description": "32nd International Cartographic Conference", "url": "https://icc2025.com/"},
+     {"name": "AGILE", "role": "Reviewer", "year": 2025, "type": "CREW", "description": "AGILE Conference 2025", "url": "https://agile-gi.eu/conference-2025"},
+     {"name": "SAGEO", "role": "Reviewer", "year": 2025, "type": "CREW", "description": "SAGEO 2025", "url": "https://sageo2025.sciencesconf.org/"},
+     {"name": "CartoAI", "role": "Program Committee member", "year": 2025, "type": "PCM", "description": "2nd Workshop on AI for cartography", "url": "https://cartoai.net/en/events/cartoai25/"}
+  ]
 }
